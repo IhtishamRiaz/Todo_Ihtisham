@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main_container {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background: linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+.todo_container {
+  margin-top: 150px;
+  width: 400px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+.input_field {
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 85%;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0 10px;
+  background: transparent;
+}
+
+::placeholder {
+  color: #383838;
+  font-weight: 500;
+}
+
+.input_row {
+  border-radius: 8px;
+  border: 2px solid #8360c3;
+}
+
+.todo_list_container h1 {
+  text-align: center;
+  color: #383838;
+  margin: 20px 0;
+}
+
+.todo_list_content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todo_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 10px;
+  color: #242424;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+  border-radius: 8px;
+}
