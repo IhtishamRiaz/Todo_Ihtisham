@@ -93,7 +93,7 @@ const TodoList = () => {
                         <h1>TODO List</h1>
                         <div className="todo_list_content">
                             {
-                                myList.map((element, id) => {
+                                myList?.map((element, id) => {
                                     return (
                                         <div className="todo_row" key={id}>
                                             <p>{element}</p>
